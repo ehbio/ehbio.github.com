@@ -1,0 +1,217 @@
+
+<!doctype html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta charset="utf-8">
+    <style>
+        .js #features {
+            margin-left: -12000px; width: 100%;
+        }
+    </style>
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+       Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>易汉博基因科技</title>
+	<meta name="description" content="易汉博基因科技成立于2015年5月5日，伴随着精准医疗的启动和生物信息、高通量测序的蓬勃发展而诞生。易汉博以深度挖掘、精准解析高通量测序数据为基础，以服务科研创新和临床诊治为使命，致力于为各领域专家、学者以及社会大众提供全球领先的科研服务和精准医学产品。科研服务业务为全球的医院、科研院所、大学、医药企业等提供高通量数据的解析与挖掘服务。医学健康服务通过绘制个体遗传信息图谱，推测相应的表型和病症，确定个体健康状况，为疾病的预测、预防以及精准医疗等健康事业提供高质量的服务及产品。易汉博有一支具有世界一流水平的产学研队伍，根据不同客户项目的科学问题，开展个性化的生物信息分析，为您提供专业的生物信息分析服务和深入的数据解读。因为专注，所以专业。让易汉博同您一起，领略生命之美，护航健康生活。	开展一系列的重要动植物、人类健康、微生物、海洋、生物能源等基因组的研究，致力于人类健康服务事业和科技应用领域的发展。">
+    <meta name="description" content="易汉博基因科技，精准解读健康密码">
+    <meta name="keywords" content="易汉博，精准医疗，精准医学，基因，基因组，外显子组测序，外显子组，基因组测序，个人基因组，肿瘤，生育健康，动植物分子育种，基因筛查，动物克隆，生物云计算，基因调控，科学，基因芯片，小分子RNA，个性化医疗，肿瘤检测，肿瘤测序，癌症测序，云计算，大数据，创新班，基因组研究，测序，基因测序，生物测序，基因小鼠，基因工程，基因检测，无创，唐氏筛查，人类基因组">
+	<meta name="keywords"  content="bioinformatics,gene,genome,high-throughtput sequencing,tumor,health,big data,computational biology,clinical screen,cloud computing,innovation,gene editing,human genome,rice genome,service,precision medicine,tumor sequencing,cancer sequencing,personal medicine,RNA-seq,ChIP-seq,exome-seq,WGS,whole genome sequencing,microarray,network,gene regulation,medical,science,nature,cell">
+    <meta name="author" content="Chen Tong">
+
+    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS : implied media="all" -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/wow_book.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/preview.css"><!-- Uncomment if you are specifically targeting less enabled mobile browsers
+	<link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+
+	<!--<link href='//fonts.useso.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>-->
+    <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+    <script src="js/modernizr-1.6.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+<nav>
+    <ul>
+        <li><a id='first'     href="#" title='goto first page'   >First page</a></li>
+        <li><a id='back'      href="#" title='go back one page'  >Back</a></li>
+        <li><a id='next'      href="#" title='go foward one page'>Next</a></li>
+        <li><a id='last'      href="#" title='goto last page'    >last page</a></li>
+        <li><a id='zoomin'    href="#" title='zoom in'           >Zoom In</a></li>
+        <li><a id='zoomout'   href="#" title='zoom out'          >Zoom Out</a></li>
+        <li><a id='slideshow' href="#" title='start slideshow'   >Slide Show</a></li>
+        <li><a id='flipsound' href="#" title='flip sound on/off' >Flip sound</a></li>
+        <li><a id='fullscreen' href="#" title='fullscreen on/off' >Fullscreen</a></li>
+        <li><a id='thumbs'    href="#" title='thumbnails on/off' >Thumbs</a></li>
+		<li><a id='download' href="https://github.com/ehbio/ehbio.github.com/raw/master/pdf/%E6%98%93%E6%B1%89%E5%8D%9A%E5%9F%BA%E5%9B%A0%E7%A7%91%E6%8A%80.pdf" title="download">Download</a></li>
+		<li><a id='phone' href="https://github.com/ehbio/ehbio.github.com/raw/master/pdf/%E6%98%93%E6%B1%89%E5%8D%9A%E5%9F%BA%E5%9B%A0%E7%A7%91%E6%8A%80%20for%20Phone.pdf" title="phone version">Phone</a></li>
+    </ul>
+	</nav>
+
+<div id="main">
+	<!--<img id='click_to_open' src="images/click_to_open.png" alt='click to open' />-->
+    <div id='features'>
+        <div class='last_cover'>
+            <img src="images/cover.png" width="100%" height="100%" />
+        </div>
+        <div data-double='true' >
+            <img src='./images/b_add.png' width=100% height=100% />
+        </div>
+        <div data-double='true' >
+            <img src='./images/c_intro.png' width=100% height=100% />
+        </div>
+        <div data-double='true' >
+            <img src='./images/d_mRNA_seq.png' height=100% width=100% />
+        </div>
+        <div data-double='true' >
+            <img src='./images/e_lncRNA.png' width=100% height=100% />
+        </div>
+        <div data-double='true' >
+            <img src='./images/f_sRNA.png' width=100% height=100% />
+        </div>
+        <div data-double='true' >
+            <img src='./images/g_genome.png' width=100% height=100% />
+        </div>
+        <div data-double='true' >
+            <img src='./images/h_chip.png' width=100% height=100% />
+        </div>
+        <div data-double='true' >
+            <img src='./images/i_microarray.png' width=100% height=100% />
+        </div>
+        <div data-double='true' >
+            <img src='./images/j_network.png' width=100% height=100% />
+        </div>
+
+        <div class='last_cover'>
+            <img src="images/cover_last.png" width="100%" height="100%" />
+        </div>
+		
+    </div> <!-- features -->
+	<!--<img id='click_to_open' src="images/click_to_download.png" alt='click to download' />-->
+
+</div> <!-- main -->
+<div id='thumbs_holder'>
+</div>
+<!--<nav>
+    <ul>
+        <li><a id='first'     href="#" title='goto first page'   >First page</a></li>
+        <li><a id='back'      href="#" title='go back one page'  >Back</a></li>
+        <li><a id='next'      href="#" title='go foward one page'>Next</a></li>
+        <li><a id='last'      href="#" title='goto last page'    >last page</a></li>
+        <li><a id='zoomin'    href="#" title='zoom in'           >Zoom In</a></li>
+        <li><a id='zoomout'   href="#" title='zoom out'          >Zoom Out</a></li>
+        <li><a id='slideshow' href="#" title='start slideshow'   >Slide Show</a></li>
+        <li><a id='flipsound' href="#" title='flip sound on/off' >Flip sound</a></li>
+        <li><a id='fullscreen' href="#" title='fullscreen on/off' >Fullscreen</a></li>
+        <li><a id='thumbs'    href="#" title='thumbnails on/off' >Thumbs</a></li>
+    </ul>
+	</nav>-->
+<footer>
+
+</footer>
+</div> <!--! end of #container -->
+</div>
+
+<!-- Javascript at the bottom for fast page loading -->
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+<!--<script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="./js/libs/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
+
+<script type="text/javascript" src="wow_book.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#features').wowBook({
+            height : 500
+            ,width  : 800
+            ,centeredWhenClosed : true
+            ,hardcovers : true
+            ,turnPageDuration : 1000
+            ,numberedPages : [1,-2]
+            ,controls : {
+                zoomIn    : '#zoomin',
+                zoomOut   : '#zoomout',
+                next      : '#next',
+                back      : '#back',
+                first     : '#first',
+                last      : '#last',
+                slideShow : '#slideshow',
+                flipSound : '#flipsound',
+                thumbnails : '#thumbs',
+                fullscreen : '#fullscreen'
+            }
+            ,scaleToFit: "#container"
+            ,thumbnailsPosition : 'bottom'
+            ,onFullscreenError : function(){
+                var msg="Fullscreen failed.";
+                if (self!=top) msg="The frame is blocking full screen mode. Click on 'remove frame' button above and try to go full screen again."
+                alert(msg);
+            }
+        }).css({'display':'none', 'margin':'auto'}).fadeIn(1000);
+
+        $("#cover").click(function(){
+            $.wowBook("#features").advance();
+        });
+
+        var book = $.wowBook("#features");
+
+        function rebuildThumbnails(){
+            book.destroyThumbnails()
+            book.showThumbnails()
+            $("#thumbs_holder").css("marginTop", -$("#thumbs_holder").height()/2)
+        }
+        $("#thumbs_position button").on("click", function(){
+            var position = $(this).text().toLowerCase()
+            if ($(this).data("customized")) {
+                position = "top"
+                book.opts.thumbnailsParent = "#thumbs_holder";
+            } else {
+                book.opts.thumbnailsParent = "body";
+            }
+            book.opts.thumbnailsPosition = position
+            rebuildThumbnails();
+        })
+        $("#thumb_automatic").click(function(){
+            book.opts.thumbnailsSprite = null
+            book.opts.thumbnailWidth = null
+            rebuildThumbnails();
+        })
+        $("#thumb_sprite").click(function(){
+            book.opts.thumbnailsSprite = "images/thumbs.jpg"
+            book.opts.thumbnailWidth = 136
+            rebuildThumbnails();
+        })
+        $("#thumbs_size button").click(function(){
+            var factor = 0.02*( $(this).index() ? -1 : 1 );
+            book.opts.thumbnailScale = book.opts.thumbnailScale + factor;
+            rebuildThumbnails();
+        })
+
+    });
+</script>
+
+<!-- scripts concatenated and minified via ant build script-->
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+<!-- end concatenated and minified scripts-->
+
+<!--[if lt IE 7 ]>
+<script src="js/dd_belatedpng.js"></script>
+<script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+<![endif]-->
+
+</body>
+</html>
