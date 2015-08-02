@@ -1,0 +1,11 @@
+  189  2015-08-02 15:40:19 cd css/
+  190  2015-08-02 15:40:20 ls
+  191  2015-08-02 15:40:32 grep 'logo_container' style.css 
+  192  2015-08-02 15:40:38 vim style.css 
+  193  2015-08-02 16:24:26 vim bootstrap.css 
+  193  2015-08-02 16:24:26 vim bootstrap.css 
+  194  2015-08-02 16:26:32 vim style.css 
+  195  2015-08-02 16:27:19 vim bootstrap.css 
+  196  2015-08-02 16:27:44 vim style.css 
+  197  2015-08-02 16:29:31 vim bootstrap.css 
+  198  2015-08-02 16:49:44 vim style.css 
