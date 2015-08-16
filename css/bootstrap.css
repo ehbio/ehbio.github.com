@@ -3651,10 +3651,10 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a {
   float: none;
-  color: #777777;
+  color: #000000;
   text-decoration: none;
-  text-shadow: 0 1px 0 #1b1b1b;
-  padding: 20px 15px 20px;
+  //text-shadow: 0 1px 0 #1b1b1b;
+  padding: 10px 10px 10px;
 }
 .navbar .nav .dropdown-toggle .caret {
   margin-top: 12px;
@@ -3663,7 +3663,6 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
   background-color: transparent;
-
   color: #ffffff;
   text-decoration: none;
 }
@@ -6204,7 +6203,7 @@ button.close {
 .countdown_section{ padding:17px 4px 16px;}
 .charity_title{ padding:1px 0 0 52px;}
 #nav .container-fluid{ padding:0; width:100%;}
-.navbar .nav > li > a{ padding:20px 7px;}
+.navbar .nav > li > a{ padding:10px 7px;}
 .nav_search.pull-right{ margin-right:30px;}
 #nav .navbar{ margin-left:5px;}
 .nav_search input[type="text"]{ width:93% !important;}

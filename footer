@@ -1,0 +1,33 @@
+<!-- Start of Footer -->
+	<footer id="footer" class="mtp">
+	
+	
+	<!-- Start of Footer 3 -->
+		<section class="footer_3">
+		<section class="container-fluid container">
+			<section class="row-fluid">
+			
+			<figure class="span6" id="footer_left">
+
+				<p> 地址：北京市西城区德胜门外大街 11号1幢220</p>
+				<p> 电话：010-51732515</p>
+				<p> 邮箱: vip@ehbio.com</p>
+				</figure>
+			
+			<figure class="span6" id="footer_right">
+
+					<div>
+							<ul id="latest_tweets">
+								<li>领略数据之美 </li>
+								<li>护航健康生活 </li>
+							</ul>
+					</div>
+
+			</figure>
+			</section>
+		</section>
+	</section>
+	<!-- End of Footer 3 -->
+	
+	</footer>
+<!-- End of Footer -->
